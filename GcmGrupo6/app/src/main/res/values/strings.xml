@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GcmGrupo6</string>
+    <string name="action_settings">User Settings</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="title_activity_preferens">Preferens</string>
+    <string name="title_activity_conected_users">ConectedUsersActivity</string>
+</resources>

@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="proyectocm.guiame.gpsFragment"
+    android:background="#ffffff">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|top">
+
+        <TextView
+            android:layout_width="151dp"
+            android:layout_height="45dp"
+            android:id="@+id/lugar"
+            android:textSize="20dp"
+            android:layout_gravity="left|top"
+            android:textColor="#060606" />
+
+        <FrameLayout
+            android:layout_width="206dp"
+            android:layout_height="38dp"
+            android:layout_gravity="right|bottom">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Llevame"
+                android:id="@+id/button" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancelar"
+                android:id="@+id/button2"
+                android:layout_gravity="right|top" />
+        </FrameLayout>
+
+        <ImageView
+            android:layout_width="403dp"
+            android:layout_height="288dp"
+            android:src="@drawable/mapamundi"
+            android:id="@+id/imageView"
+            android:layout_gravity="center" />
+    </FrameLayout>
+</FrameLayout>

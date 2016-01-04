@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:hint="Ingrese el nombre del lugar"
+        android:maxLength="20"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#010203"
+        android:layout_weight="0.09" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="61dp">
+
+        <FrameLayout
+            android:layout_width="242dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Agregar"
+                android:id="@+id/aceptar"
+                android:layout_gravity="left|center_vertical" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="cancelar"
+                android:id="@+id/cancelar"
+                android:layout_gravity="right|center_vertical" />
+        </FrameLayout>
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="User info">
+        <EditTextPreference
+            android:key="user_name"
+            android:title="User name"
+            android:summary="This is your user name"
+            android:dialogTitle="Enter your user name"/>
+        <EditTextPreference
+            android:key="email"
+            android:title="Email"
+            android:summary="This is your email"
+            android:dialogTitle="Enter your email"/>
+    </PreferenceCategory>
+</PreferenceScreen>

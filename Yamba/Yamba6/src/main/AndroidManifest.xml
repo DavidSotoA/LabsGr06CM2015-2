@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="co.edu.udea.cmovil.gr06.yamba" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/yamba_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".StatusActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.marakana.android.yamba.action.tweet" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/action_settings" >
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".RefreshService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+
+        <provider
+            android:name=".StatusProvider"
+            android:authorities="co.edu.udea.compumovil.yamba.StatusProvider"
+            android:enabled="true"
+            android:exported="false" >
+        </provider>
+
+        <receiver
+            android:name=".BootReciver"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".NotificationReceiver"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="compumovil.udea.edu.co.yamba.action.NEW_STATUSES" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".YambaWidget" >
+            <intent-filter>
+                <action android:name="compumovil.udea.edu.co.yamba.action.NEW_STATUSES"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/yamba_widget_info" />
+        </receiver>
+>
+    </application>
+
+</manifest>

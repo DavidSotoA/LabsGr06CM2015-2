@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Yamba.iml" filepath="$PROJECT_DIR$/Yamba.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Yamba1/Yamba1.iml" filepath="$PROJECT_DIR$/Yamba1/Yamba1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Yamba2/Yamba2.iml" filepath="$PROJECT_DIR$/Yamba2/Yamba2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Yamba3/Yamba3.iml" filepath="$PROJECT_DIR$/Yamba3/Yamba3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Yamba4/Yamba4.iml" filepath="$PROJECT_DIR$/Yamba4/Yamba4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Yamba5/Yamba5.iml" filepath="$PROJECT_DIR$/Yamba5/Yamba5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Yamba6/Yamba6.iml" filepath="$PROJECT_DIR$/Yamba6/Yamba6.iml" />
+    </modules>
+  </component>
+</project>
