@@ -45,7 +45,10 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
     }
 
     public CharSequence getPageTitle(int position) {
-        return "Page #" + ( position + 1 );
+        if (position==0)
+            return "Favoritos";
+        else
+            return "Famosos";
     }
 
 

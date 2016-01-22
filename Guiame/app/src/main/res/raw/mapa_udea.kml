@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>UdeA Rutas</name>
+
+		 <Style id="color_mapa">
+               <LineStyle>
+                 <color>6414B41E</color>
+                 <width>8</width>
+               </LineStyle>
+               <PolyStyle>
+                 <color>1914B414</color>
+               </PolyStyle>
+          </Style>
+
+          <Style id="color_ruta">
+          		<LineStyle>
+          		 	<color>643C0014</color>
+                     <width>10</width>
+                </LineStyle>
+           </Style>
+
+		<Placemark>
+			<name>udea</name>
+			<styleUrl>#color_mapa</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-75.569737,6.2649420000000005,0.0 -75.5693722,6.264856600000001,0.0 -75.5683208,6.264686000000001,0.0 -75.5675912,6.264622,0.0 -75.56735520000001,6.2651979,0.0 -75.5672264,6.2661791,0.0 -75.5670333,6.2670749,0.0 -75.5667758,6.268141400000001,0.0 -75.5665827,6.2689519,0.0 -75.5664539,6.269677100000001,0.0 -75.5667973,6.2697837,0.0 -75.567441,6.269997,0.0 -75.5681062,6.270189,0.0 -75.5689216,6.2705516,0.0 -75.56962970000001,6.2709142,0.0 -75.5701447,6.2713621,0.0 -75.5703807,6.2706582,0.0 -75.5705309,6.2700397,0.0 -75.5706382,6.2693145,0.0 -75.5708528,6.2684827,0.0 -75.5709386,6.2678854,0.0 -75.5711317,6.2673949,0.0 -75.5712819,6.2667123,0.0 -75.5710888,6.266200400000001,0.0 -75.5707026,6.2656458,0.0 -75.5701447,6.2650486,0.0 -75.569737,6.2649420000000005,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+
+		<Placemark>
+        				<name>Línea 6</name>
+        				<styleUrl>#color_ruta</styleUrl>
+        				<ExtendedData>
+        				</ExtendedData>
+        				<LineString>
+        					<tessellate>1</tessellate>
+        					<coordinates>-75.5667029,6.2691981,0.0 -75.5666819,6.2689786,0.0 -75.5667525,6.2686517,0.0 -75.5668906,6.2685439,0.0 -75.5669366,6.2682738,0.0 -75.5671388,6.267554,0.0 -75.5677936,6.2675754,0.0 -75.5679291,6.2676002,0.0 -75.5679427,6.267744,0.0 -75.5681692,6.2678494,0.0 -75.568428,6.2679294,0.0 -75.56838720000002,6.2683955,0.0 -75.5683529,6.268652,0.0 -75.567548,6.2685515,0.0 -75.5675912,6.268272,0.0</coordinates>
+        				</LineString>
+        			</Placemark>
+        			<Placemark>
+        				<name>Línea 7</name>
+        				<styleUrl>#color_ruta</styleUrl>
+        				<ExtendedData>
+        				</ExtendedData>
+        				<LineString>
+        					<tessellate>1</tessellate>
+        					<coordinates>-75.567548,6.2685515,0.0 -75.5675429,6.2685946,0.0 -75.5668906,6.2685439,0.0</coordinates>
+        				</LineString>
+        			</Placemark>
+	</Document>
+</kml>

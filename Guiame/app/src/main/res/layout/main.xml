@@ -1,31 +1,21 @@
 <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/pager"
     android:layout_width="match_parent"
     android:background="#010203"
     android:layout_height="match_parent"
-    tools:context=".MainActivity" >
-
-
-
-    <!--
-    This title strip will display the currently visible page title, as well as the page
-    titles for adjacent pages.
-    -->
+    tools:context=".MainActivity">
 
     <android.support.v4.view.PagerTitleStrip
         android:id="@+id/pager_title_strip"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textStyle="bold"
         android:layout_gravity="top"
-        android:background="#37e5cd"
+        android:background="#8BC34A"
         android:paddingBottom="4dp"
         android:paddingTop="4dp"
-        android:textColor="#365eff" >
-
-
-
+        android:textColor="#010203" >
     </android.support.v4.view.PagerTitleStrip>
-
-
 </android.support.v4.view.ViewPager>

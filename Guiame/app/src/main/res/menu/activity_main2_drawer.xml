@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/lugares"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Ver mis lugares" />
+            <item
+                android:id="@+id/destino"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Elegir destino" />
+    </group>
+<!--
+    <item android:title="Vistas">
+        <menu>
+            <item
+                android:id="@+id/normal"
+
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="normal" />
+            <item
+                android:id="@+id/satelite"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="satelite" />
+        </menu>
+    </item>
+-->
+</menu>

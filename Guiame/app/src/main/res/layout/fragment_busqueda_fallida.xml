@@ -1,0 +1,32 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="proyectocm.guiame.BusquedaFallidaFragment"
+    android:background="#55010000">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="213dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:background="@drawable/carita_triste"
+            android:id="@+id/imageView"
+            android:layout_gravity="right|top"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="247dp"
+            android:layout_height="46dp"
+            android:text="No se han encontrado resultados para la busqueda."
+            android:id="@+id/textView"
+            android:textSize="15sp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+</FrameLayout>
